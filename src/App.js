@@ -1,9 +1,9 @@
 import React from 'react';
-import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
-import Signin from './pages/Signin';
-import Home from './pages/Home';
-import Error from './pages/Error';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Add from './pages/Add';
+import Error from './pages/Error';
+import Home from './pages/Home';
+import Signin from './pages/Signin';
 import withAuth from './utils/withAuth';
 
 function App() {

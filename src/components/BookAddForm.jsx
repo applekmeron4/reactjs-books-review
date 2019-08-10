@@ -75,6 +75,7 @@ const BookAddForm = props => {
       <InputArea>
         <StyledInput placeholder="Title" ref={_titleInput} />
       </InputArea>
+
       <InputTitle top={10}>
         Comment
         <StyledSpan />
@@ -82,10 +83,12 @@ const BookAddForm = props => {
       <InputArea>
         <StyledInput placeholder="Comment" ref={_commentInput} />
       </InputArea>
+
       <InputTitle top={10}>Author</InputTitle>
       <InputArea>
         <StyledInput placeholder="Author" ref={_authorInput} />
       </InputArea>
+      
       <InputTitle top={10}>Url</InputTitle>
       <InputArea>
         <StyledInput placeholder="Url" ref={_urlInput} />

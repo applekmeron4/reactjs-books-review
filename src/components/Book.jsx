@@ -10,11 +10,12 @@ const Book = props => {
           Authorization: `Bearer ${props.token}`,
         },
       });
+      props.deleteBook(props.bookId);
 
       // 갱신
-      props.removeBook(props.bookId);
     } catch (error) {
       console.log(error);
+      props.undoDeleteBook(props.bookId);
     }
   };
 
